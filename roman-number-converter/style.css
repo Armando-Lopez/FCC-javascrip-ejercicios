@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+input,
+button {
+    font-size: 1em;
+    padding: 0.4em;
+    font-weight: 800;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #000000;
+}
+input {
+    width: 130px;
+}
