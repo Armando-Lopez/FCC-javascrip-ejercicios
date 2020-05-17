@@ -4,10 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telephone Number Validator</title>
+    <title>telephone-number-validator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <div class="container">
+        <h1>telephone number validator</h1>
+        <p>Valida numero de telefono</p>
+        <label for="">Ingrese numero</label>
+        <input type="text" id="numero" required>
+        <button id="validar">Validar</button>
+
+        <div id="result"></div>
+        <hr>
+        <div class="ex">
+            <p>Algunos numero validos son</p>
+            <ul>
+                <li>555-555-5555</li>
+                <li>(555)555-5555</li>
+                <li>(555) 555-5555</li>
+                <li>555 555 5555</li>
+                <li>5555555555</li>
+                <li>1 555 555 5555</li>
+            </ul>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 
